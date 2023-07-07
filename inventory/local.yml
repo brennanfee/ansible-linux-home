@@ -1,7 +1,5 @@
 ---
 # vim: set ft=yaml
 
-- hosts: all
-  roles:
-   - brennanfee.deb_collection.bare
-   - brennanfee.deb_collection.base
+[local]
+127.0.0.1
