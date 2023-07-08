@@ -2,5 +2,4 @@
 # vim: set ft=yaml.ansible:
 
 - name: Ping
-  hosts: all
   ansible.builtin.import_playbook: brennanfee.deb_collection.ping
