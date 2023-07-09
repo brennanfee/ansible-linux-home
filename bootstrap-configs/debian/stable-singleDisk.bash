@@ -6,8 +6,8 @@
 # way.  The config script sets some values for a specific type of installation
 # and then automatically calls the deb-install script.
 #
-# Short URL: https://tinyurl.com/deb-backports-multi
-# Github URL: https://raw.githubusercontent.com/brennanfee/ansible-linux-home/main/bootstrap-configs/debian/backports-multiDisk.bash
+# Short URL: https://tinyurl.com/deb-stable-single
+# Github URL: https://raw.githubusercontent.com/brennanfee/linux-bootstraps/main/scripted-installer/debian/debian-my-configs/stable-singleDisk.bash
 #
 #
 ##################  MODIFY THIS SECTION
@@ -15,10 +15,10 @@
 set_exports() {
   export AUTO_INSTALL_OS=${AUTO_INSTALL_OS:=debian}
   export AUTO_INSTALL_EDITION=${AUTO_INSTALL_EDITION:=stable}
-  export AUTO_KERNEL_VERSION=${AUTO_KERNEL_VERSION:=backports}
+  export AUTO_KERNEL_VERSION=${AUTO_KERNEL_VERSION:=default}
 
   export AUTO_MAIN_DISK=${AUTO_MAIN_DISK:=smallest}
-  export AUTO_SECOND_DISK=${AUTO_SECOND_DISK:=smallest}
+  export AUTO_SECOND_DISK=${AUTO_SECOND_DISK:=ignore}
 
   export AUTO_DOMAIN=${AUTO_DOMAIN:=bfee.org}
   export AUTO_CREATE_USER=${AUTO_CREATE_USER:=0}
