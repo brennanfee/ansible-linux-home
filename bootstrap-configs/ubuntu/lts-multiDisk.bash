@@ -7,7 +7,7 @@
 # and then automatically calls the deb-install script.
 #
 # Short URL:
-# Github URL: https://raw.githubusercontent.com/brennanfee/linux-bootstraps/main/scripted-installer/debian/ubuntu-my-configs/lts-multiDisk.bash
+# Github URL: https://raw.githubusercontent.com/brennanfee/ansible-linux-home/main/bootstrap-configs/ubuntu/lts-multiDisk.bash
 #
 #
 ##################  MODIFY THIS SECTION

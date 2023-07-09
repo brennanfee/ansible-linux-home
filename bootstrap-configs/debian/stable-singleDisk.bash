@@ -7,7 +7,7 @@
 # and then automatically calls the deb-install script.
 #
 # Short URL: https://tinyurl.com/deb-stable-single
-# Github URL: https://raw.githubusercontent.com/brennanfee/linux-bootstraps/main/scripted-installer/debian/debian-my-configs/stable-singleDisk.bash
+# Github URL: https://raw.githubusercontent.com/brennanfee/ansible-linux-home/main/bootstrap-configs/debian/stable-singleDisk.bash
 #
 #
 ##################  MODIFY THIS SECTION

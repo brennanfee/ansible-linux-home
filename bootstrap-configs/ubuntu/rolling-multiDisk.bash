@@ -7,7 +7,7 @@
 # and then automatically calls the deb-install script.
 #
 # Short URL:
-# Github URL: https://raw.githubusercontent.com/brennanfee/linux-bootstraps/main/scripted-installer/debian/ubuntu-my-configs/rolling-multiDisk.bash
+# Github URL: https://raw.githubusercontent.com/brennanfee/ansible-linux-home/main/bootstrap-configs/ubuntu/rolling-multiDisk.bash
 #
 #
 ##################  MODIFY THIS SECTION
